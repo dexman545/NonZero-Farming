@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "nonzerofarming",
+  "version": "${version}",
+
+  "name": "NonZero Farming",
+    "description": "Patch 0-tick farms",
+      "authors": [
+    "Deximus-Maximus"
+  ],
+      "contact": {
+            "sources": "https://github.com/dexman545/NonZero-Farming.git"
+      },
+  
+  "license": "LGPL-3.0",
+  "icon": "assets/nonzerofarming/icon.png",
+
+  "environment": "*",
+    "entrypoints": {
+    "main": [
+"nonzerofarming.nonzerofarming.Nonzerofarming"
+]
+  },
+      "mixins": [
+    "nonzerofarming.mixins.json"
+  ],
+  
+  "depends": {
+    "fabricloader": ">=0.7.8+build.187",
+        "fabric": "*",
+        "minecraft": "1.16-alpha.20.11.a"
+      }
+}

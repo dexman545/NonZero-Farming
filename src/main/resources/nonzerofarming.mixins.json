@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "nonzerofarming.nonzerofarming.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "Patch"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
